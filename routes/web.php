@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('main.video');
 });
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});

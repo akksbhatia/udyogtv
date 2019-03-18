@@ -16,6 +16,8 @@ class ValidatePostSize
      *
      * @throws \Illuminate\Http\Exceptions\PostTooLargeException
      */
+
+
     public function handle($request, Closure $next)
     {
         $max = $this->getPostMaxSize();
