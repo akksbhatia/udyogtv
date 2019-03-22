@@ -10,10 +10,9 @@
                         <div class="single-video-left">
                            <div class="single-video">
                               <video width="700" controls>
-                                 <source src="asset('storage\videos\March2019\'.$videos->upload)" type="video/mp4">
+                                 <source src="" type="video/mp4">
                               </video>
                            </div>
-
                            <div class="single-video-title box mb-3">
                               <h2>Prakesh Chand Jain Director Chamber of Industries</h2>
                               <p class="mb-0"><i class="fas fa-eye"></i> 2,729,347 views</p>

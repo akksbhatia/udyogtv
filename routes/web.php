@@ -11,12 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('main.video');
-});
+//Route::get('/', function () {
+//    return view('main.video');
+//});
+
+Route::get('/','MainController@index');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
 
-Route::get('main.video','VideoController@index');
+Route::get('/testing','VideoController@index');
